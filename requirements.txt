@@ -64,6 +64,7 @@ kiwisolver==1.4.9
 lazypredict==0.2.16
 lightgbm==4.6.0
 -e git+https://github.com/HKUDS/LightRAG.git@b5682b15cb6d551128052b3babd14c335b3a9889#egg=lightrag_hku
+llvmlite==0.45.1
 Mako==1.3.10
 MarkupSafe==3.0.2
 matplotlib==3.10.6
@@ -75,6 +76,7 @@ multidict==6.6.4
 nano-vectordb==0.0.4.3
 narwhals==2.6.0
 networkx==3.4.2
+numba==0.62.1
 numpy==2.2.6
 ollama==0.5.3
 openai==1.101.0
@@ -119,7 +121,10 @@ requests==2.32.5
 rsa==4.9.1
 scikit-learn==1.7.2
 scipy==1.15.3
+seaborn==0.13.2
+shap==0.48.0
 six==1.17.0
+slicer==0.0.8
 smmap==5.0.2
 sniffio==1.3.1
 SQLAlchemy==2.0.43
